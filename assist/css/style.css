@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: #fff;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  }
+  
+    h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+      
+  }
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  padding: 0;
+  height: 10px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
