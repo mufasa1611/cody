@@ -1,24 +1,24 @@
 
-# Altrad Hofmaninger [Logo](logo.gif)
+# Altrad Hofmaninger [Logo](assets/img/logo.png)
 
-<h1 align="center"<Welcome to Altrad Hofmaninger!>
+## Welcome to Altrad Hofmaninger!
 
 Altrad Hofmaninger is the Austrian branch of Altrad Group. This is the website of the leading producer of wheelbarrows in Europe and my employer. I want to create a basic website, that provides visitors with information about the company and the products.
 
 You can find the live website [here](https://)
 
-The companys objective is to inform existing and potential future customers about the company, the services and the products they offer. The website should be easy to navigate, informative, basic and simple. Later on, the website should be completed with the product groups, products and prices.
+The objective is to inform existing and potential future customers about the company, the services and the products they offer. The website should be easy to navigate, informative, basic and simple. Later on, the website could be completed with the product groups, products and prices.
 
 ![Mockup](link or photos)
 
 ## Index - Table of Contents
-*[User Experience (UX)](#user-exp-ux)
-*[Features](#features)
-*[Design](#design)
-*[Technologies Used](#technologies-used)
-*[Testing](#testing)
-*[Deployment](#deployment)
-*[Credits](#credits)
+1. [User Experience (UX)](#user-exp-ux)
+2. [Features](#features)
+3. [Design](#design)
+4. [Technologies Used](#technologies-used)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
 
 ## User Experience (UX):
 
@@ -27,40 +27,44 @@ The companys objective is to inform existing and potential future customers abou
 
  -   #### A. First Time Visitor Goals
 
-        1. As a first time visitor, I want to easily understand the purpose of the site and learn about the company
-        2. I want to able to easily and intuitively navigate throughout the site to find the content I am looking for
-        3. I want to able to find out the location, address and contact details of the company
+        * As a first time visitor, I want to easily understand the purpose of the site and learn about the company
+        * I want to able to easily and intuitively navigate throughout the site to find the content I am looking for
+        * I want to able to find out the location, address and contact details of the company
 
- -   #### B. Returning/ -Frequent Visitor Goals
+ -   #### B. Returning or Frequent Visitor Goals
 
-        1. As a returing Visitor I want to able to access and view the menu quickly an easily
-        2. I  want to be able to see the opening hours/ office work hours quickly and easily
-        3. I want to be able to leave a comment or feedback or inquiry
+        *. As a returing or frequent Visitor I want to able to access and view the menu quickly and easily
+        * I want to be able to leave a comment or feedback or inquiry
 
+www.techsini.com-multi-markups
 "screenshot of different pages on different devices"
 
 ## Features:
 
-The website consists of 3 sections: "Home", "About us" and "Contact us" and a footer containing the copyright information and social media links.
+The website consists of 3 sections: "Home", "About us" and "Contact" and a footer containing the copyright information and social media links.
 
-### Navigation bar:
+-  ### Navigation bar:
 
 "screenshot navigation with logo and menue on the right"
-See also:      ![Navbar](documentation/img/.png)
+  
+ ![Navbar](documentation/img/.png)
 
 
- -  ### Navigation Bar
-    The Navigation bar is responsive and present across all thee sections of the website. It helps the users to easily move from one section of the page to another. It includes the companys logo in .png format. The three main sections are directly linked to the menue items floating on the right side. For better visibiliy, the menue items change their color when the mouse hovers over one of them.
+    -   __Naviation bar__
+        - The Navigation bar is responsive and has a consistent look and placement on all three sections of the website. It helps the user to easily move from one section to another. It includes the company logo on the left side and Menu and contact links floating on the right side. For better visibiliy, the menu items change their color when the mouse hovers over one of them. It is responsive on multiple screen sizes. 
 
   
-    
-background image with text>
+-  ### Landing Page Main Image 
 
-"background image with welcome to...screenshot"
-      ![Navbar](documentation/img/bg.png)
+   "Landing Page Main Image with welcome to...screenshot"
+
+   ![Navbar](documentation/img/bg.png)
+
+   -   __Landing Page image__
+
+    - The landing area includes a photo and a text overlay that together clearly identify the purpose of the business and the type of product it sells. The button below links to the "about us" section. It also changes the color of the fonts when the mouse hovers over it. It includes a simple Logo, Home page, Menu and Contact links and is responsive on multiple screen sizes. On small screens (e.g. mobile devices) the Home, Menu and Contact links move to under the Logo.
 
 
-The main background image shows the natural surroundings of the Austrian branch in the Austrian region called the "Salzkammergut". source of photo? In the center of this banner there is a welcome message to the website and a short introduction about the products. The button below links to the "about us" section. It also changes the color of the fonts when the mouse hovers over it.
 
 The about us section:
 
