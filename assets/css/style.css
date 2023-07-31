@@ -1,0 +1,39 @@
+
+/* Asterisk wildcard selector to override default styles */
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/*--------- General styles ----------*/
+
+body {
+  min-height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  background: #fc7527;
+  font-family: "Open Sans", sans-serif;
+  }
+  
+    /*---------------------# Header ----------------------------*/
+#header {
+
+  background: #009919;
+}
+
+ /*------------------------# Navigation Menu ---------------*/
+
+     
+
+    /*--------------------------# main ---------------*/
+   #main{
+    background: #076ff7;
+    flex: 1 0 auto;
+   }
+    
+
+
+
+    
