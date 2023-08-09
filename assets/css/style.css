@@ -46,12 +46,14 @@ h1{
 
   
 }
-nav.active {
-  border-bottom: 1px solid #3a3a3a;
+#nav .active {
+  border-bottom: 0px solid #3a3a3a;
+  
 }
 
 #nav > li{
-  margin-right: 1em;
+  margin-right: 2em;
+  
 
 }
 /*----------# main container---------------*/
@@ -76,3 +78,30 @@ main {
 footer {
   background-color: aquamarine;
 }
+#social{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 25px 0;
+  text-align: center;
+
+}
+
+
+/* media queries */
+
+
+  /* tablets and larger 768px and up */
+  @media screen and (min-width: 768px) {
+   }
+
+  
+  
+
+
+/* large devices 992px and up */
+@media screen and (min-width: 992px)
+ {
+
+}
+
