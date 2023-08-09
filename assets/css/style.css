@@ -1,0 +1,45 @@
+
+/*----------# wild card---------------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  color: black;
+}
+/* general styles*/
+body{
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+  
+}
+
+/*----------# Header---------------*/
+header {
+  background-color: lightcoral
+
+}
+
+/*----------# main container---------------*/
+
+main {
+  background-color: #0e06ff;
+ flex: 1 0 auto;
+  }
+  
+/*----------# about---------------*/
+.about {
+  background-color: blueviolet;
+}
+/*----------# contact---------------*/
+
+.contact{
+  background-color:red ;
+}
+  /*----------# footer---------------*/
+
+
+footer {
+  background-color: aquamarine;
+}
