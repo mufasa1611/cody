@@ -7,7 +7,7 @@
   padding: 0;
   margin: 0;
   box-sizing: 0;
-  color: black;
+
 }
 
 /* general styles*/
@@ -20,15 +20,22 @@ body {
 
 /*----------# Header---------------*/
 header {
+  
   background-color: rgb(255, 251, 251);
   width: 100%;
   padding: 0 1rem;
   position: fixed;
-  z-index:99;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   box-shadow: 0 1px 10px #060606;
 
 }
 
+header .a{
+  text-decoration: none;
+}
 h1 {
   color: inherit;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -41,20 +48,23 @@ h1 {
 #nav {
   display: flex;
   list-style-type: none;
+  text-decoration: none;
   float: right;
-  font-size: 110%;
+  font-size: 130%;
   letter-spacing: 3px;
-
-
 }
 
+#nav li a {
+  text-decoration: none;
+}
 #nav .active {
-  border-bottom: 0px solid #3a3a3a;
-
+  border-bottom: 0.1px solid #4000ff;
+  
 }
 
 #nav>li {
   margin-right: 2em;
+ 
 
 
 }
@@ -64,24 +74,49 @@ h1 {
 main {
   background-color: #ff0000;
   flex: 1 0 auto;
+  
 }
 
-#bg-pic{
-  height: 600px;
-  width: 100%;
+#bg-pic {
+  height: 87.6vh;
+  min-width: 100%;
   background-color: chartreuse;
-  background: url("assets/img/bground.jpg");
+  background:linear-gradient(rgba(255,255,255,0), rgba(0, 0, 0, 1.2)), 
+  url("../img/bground.jpg")  no-repeat center center/cover;
+  
+
+}
+
+#over-text {
+  text-align: center;
+  padding-top: 25%;
+}
+#btn {
+  font-size: x-large;
+  color: chartreuse;
+  text-decoration: none;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 1px solid #fff;
+}
+
+#btn:hover {
+  background: #D87B02;
+  border: 1px solid #000000;
 }
 
 /*----------# about---------------*/
 .about {
   background-color: blueviolet;
+  display: none;
 }
 
 /*----------# contact---------------*/
 
 .contact {
   background-color: red;
+  display: none;
 }
 
 /*----------# footer---------------*/
@@ -90,13 +125,14 @@ main {
 footer {
   background-color: aquamarine;
   text-align: center;
+  
 }
 
 #social {
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
-  padding: 25px 0;
+  padding: 15px 0;
   text-align: center;
 
 }
@@ -106,7 +142,10 @@ footer {
 
 
 /* tablets and larger 768px and up */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+
+}
 
 
 
