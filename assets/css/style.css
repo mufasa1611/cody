@@ -21,9 +21,9 @@ body {
 /*----------# Header---------------*/
 header {
   
-  background-color: rgb(255, 251, 251);
+  background-color:transparent;
   width: 100%;
-  padding: 0 1rem;
+  padding: 0 10%;
   position: fixed;
   z-index: 99;
   display: flex;
@@ -49,9 +49,9 @@ h1 {
   display: flex;
   list-style-type: none;
   text-decoration: none;
-  float: right;
+  padding-right: 50rem;
   font-size: 130%;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 #nav li a {
@@ -63,7 +63,7 @@ h1 {
 }
 
 #nav>li {
-  margin-right: 2em;
+  margin-right: 8rem;
  
 
 
@@ -74,11 +74,12 @@ h1 {
 main {
   background-color: #ff0000;
   flex: 1 0 auto;
+
   
 }
 
 #bg-pic {
-  height: 87.6vh;
+  height: 100vh;
   min-width: 100%;
   background-color: chartreuse;
   background:linear-gradient(rgba(255,255,255,0), rgba(0, 0, 0, 1.2)), 
@@ -107,16 +108,70 @@ main {
 }
 
 /*----------# about---------------*/
-.about {
-  background-color: blueviolet;
-  display: none;
+#about {
+  background: #fff;
+  display: flex;
+  padding: 20px;
+  min-height: 800px;
+  
+  padding: 5% 2% 2% 5%;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center; 
+  width: 100%;
+  max-width:80vw; 
+
+ 
+ 
+   
+}
+
+.about-title {
+  
+  font-size: x-large;
+  text-decoration: underline;
+  position: top; 
+  background-color:transparent; 
+ 
+  z-index: 1;
+
+  
+ 
+}
+.about-p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+   align-items: left;
+ 
+  
+}
+
+.about img {
+  background:url('../img/team.jpg') no-repeat /center;
+    width: 40vw;
+  height: 40vw;
+  margin-left: 2rem;
+  border-radius: 50%;
+  max-width: 700px;
+max-height: 500px;
+padding: 100px;
+
 }
 
 /*----------# contact---------------*/
 
 .contact {
-  background-color: red;
-  display: none;
+	color: #0A00FF;
+  background: #f7f7f7;
+  padding: 100px 0 40px 0;
+  border-radius: 1;
+  box-shadow: none;
+  font-size: 14px;
 }
 
 /*----------# footer---------------*/
@@ -125,6 +180,7 @@ main {
 footer {
   background-color: aquamarine;
   text-align: center;
+  
   
 }
 
@@ -141,15 +197,61 @@ footer {
 /* media queries */
 
 
-/* tablets and larger 768px and up */
-@media screen and (min-width: 768px) {
 
+/* Mobile devices up to 767px */
+@media screen and (min-width: 280px) and (max-width: 768px) {
+  
+  header {
+    padding: 0.5rem; /* Adjust header padding for smaller screens */
+  }
+
+  /* Main adjustments for mobile */
+  main {
+    background-color: #ff0000;
+  }
+
+  /* About section adjustments for mobile */
+  #about {
+    padding: 1rem; /* Adjust padding for smaller screens */
+    min-height: auto; /* Allow height to adjust based on content */
+  }
+
+  .about-content {
+    flex-direction: column; /* Stack elements vertically on small screens */
+  }
+
+  .about-title {
+    position: static;
+    background-color: transparent;
+    padding: 0; /* Remove title styling for mobile */
+  }
+
+  .about-p {
+    padding: 1rem 0; /* Add padding for better spacing */
+  }
+
+  .about img {
+    max-width: 100%;
+    border-radius: 50%;
+  max-width: 500px;
+max-height: 500px;
+padding: 400px 70px;
+
+  /* Contact adjustments for mobile */
+  .contact {
+    background-color: red;
+  }
+
+  /* Footer adjustments for mobile */
+  footer {
+    background-color: aquamarine;
+  }
+}
+#nav {
+  display: flex; /* Display navigation links on larger mobile */
+}
 
 }
 
-
-
-
-
-/* large devices 992px and up */
-@media screen and (min-width: 992px) {}
+* Mobile devices up to 448px */
+/* @media screen and (max-width: 448px) { */
