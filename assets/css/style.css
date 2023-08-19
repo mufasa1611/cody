@@ -139,59 +139,65 @@ h1 {
 
 /*----------# about---------------*/
 #about {
+
+  position:sticky;
+  justify-content: space-around;
   background: #fff;
   display: flex;
-  padding: 20px;
-  min-height: 800px;
-  
-  padding: 5% 2% 2% 5%;
-  align-items: center;
+  flex-wrap: wrap;
+  flex:100%;
+  min-height:100vh;
+  padding-top: 10%;
+  overflow: hidden;
+ 
 }
 
-.about-content {
+ .content {
+
   display: flex;
-  position: relative;
   flex-direction: column;
-  align-items: center; 
-  width: 100%;
-  max-width:80vw; 
-
+  width: 50%;
+  padding-left: 10%;
+  max-height:500px ;
  
- 
-   
 }
 
-.about-title {
-  
-  font-size: x-large;
+.content h3 {
+
+  font-size: 1.4rem;
   text-decoration: underline;
-  position: top; 
-  background-color:transparent; 
- 
-  z-index: 1;
-
-  
+  padding-bottom: 3%;
+  background-color: transparent;
+  color:#0318ff;
  
 }
-.about-p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.content p  {
+
+  display: flex;
+  font-family: 'RobotoSerif_Thin', sans-serif;
+  font-weight: 600;
   font-size: 1.2rem;
-   align-items: left;
- 
-  
+  overflow-x: auto;
+  max-height: 500px;
+  max-width: 600px;
+
 }
 
-.about img {
-  background:url('../img/team.jpg') no-repeat /center;
-    width: 40vw;
-  height: 40vw;
-  margin-left: 2rem;
+.content img {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/team.jpg") no-repeat / center;
+  width: 430px;
+  height: 430px;
+  max-width: 100%;
   border-radius: 50%;
-  max-width: 700px;
-max-height: 500px;
-padding: 100px;
+  margin-top: 10%;
 
-}
+  }
+
 
 /*----------# contact---------------*/
 
