@@ -199,7 +199,8 @@ h1 {
   }
 
 
-/*----------# contact---------------*/
+
+  /*----------# contact---------------*/
 
 #contact {
 
@@ -228,7 +229,21 @@ h1 {
 
 }
 
+/* Styles for the Google Map */
 
+.google-map {
+
+  display:flex;
+  justify-content:center;
+  padding-bottom:5% ;
+
+}
+
+iframe{
+
+  width: 80%;
+
+}
 /*----------# footer---------------*/
 
 
