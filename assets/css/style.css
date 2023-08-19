@@ -1,5 +1,19 @@
-/* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* google fonts import */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,700&family=Lato:wght@300&family=Open+Sans:ital@1&display=swap');
+
+/* local fonts import */
+@font-face {
+  font-family: 'RobotoSerif_UltraC'; 
+  src: url('../fonts/RobotoSerif_UltraC.ttf');}
+
+  @font-face {
+  font-family: 'RobotoSerif_Thin';
+  src: url('../fonts/RobotoSerif_Thin.ttf');
+
+}
+
+
 
 /*----------# wild card---------------*/
 
