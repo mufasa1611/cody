@@ -201,14 +201,33 @@ h1 {
 
 /*----------# contact---------------*/
 
-.contact {
-	color: #0A00FF;
-  background: #f7f7f7;
-  padding: 100px 0 40px 0;
-  border-radius: 1;
-  box-shadow: none;
-  font-size: 14px;
+#contact {
+
+  display: flex;
+  flex: 100%;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 1.5rem;
+  padding-top: 80px;
+
+  }
+
+.contact-title {
+
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 2em;
+  color: #111;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
 }
+
 
 /*----------# footer---------------*/
 
