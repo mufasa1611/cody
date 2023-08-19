@@ -282,6 +282,21 @@ iframe{
   border-radius: 4px;
 
 }
+.contact-form button {
+
+  border: 1px solid #000000;
+  border-radius: 20px;
+   
+}
+
+.contact-form button:hover {
+
+  background: #d14200e8;
+  border: 1.5px solid #000000;
+  transition: 0.5s;
+  color: #ffffff;
+
+}
 
 
 /*----------# footer---------------*/
