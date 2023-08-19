@@ -245,6 +245,45 @@ iframe{
 
 }
 
+/* Styles for the Contact form */
+
+.contact-form {
+  
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 100%;
+ 
+}
+
+.contact-form h3 {
+
+  color: #0318ff;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+
+}
+
+.contact-form form {
+
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+ 
+}
+
+.contact-form input,
+.contact-form button{
+
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+
 /*----------# footer---------------*/
 
 footer {
