@@ -297,6 +297,43 @@ iframe{
   color: #ffffff;
 
 }
+.contact-form address {
+
+  display: flex;
+  flex: 50%;
+
+ }
+
+.address h3 {
+
+  display: flex;
+  color: #0318ff;
+  text-decoration: underline;
+  font-size: 1.5rem;
+
+ }
+
+.address p {
+
+ line-height: 100%;
+ padding-top: 5px;
+ font-size: 1.1rem;
+ margin-bottom: 3px;
+
+}
+
+.address p:nth-child(3),
+.address p:nth-child(4) {
+
+ text-indent: 2.3rem;
+
+}
+
+.address i {
+
+  margin-right: 20px;
+
+}
 
 
 /*----------# footer---------------*/
