@@ -29,8 +29,10 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
+  font-family: "RobotoSerif_UltraC", "RobotoSerif_Thin", sans-serif;
 }
+
+
 
 /*----------# Header---------------*/
 header {
