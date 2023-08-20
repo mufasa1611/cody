@@ -452,34 +452,30 @@ footer {
 
 
 
+   /* about section */
+
+   #about{
+
+    max-height:100%;
+ padding-top: 15%;
+ 
+}
+   .content { 
+
+     align-items: center;
+     justify-content: center;
+     padding:5% 0% 0% 0%;
+     width: 90%;
+     height: 100%;
+    
 }
 
-  /* About section adjustments for mobile */
-  #about {
-    padding: 1rem; /* Adjust padding for smaller screens */
-    min-height: auto; /* Allow height to adjust based on content */
-  }
 
-  .about-content {
-    flex-direction: column; /* Stack elements vertically on small screens */
-  }
 
-  .about-title {
-    position: static;
-    background-color: transparent;
-    padding: 0; /* Remove title styling for mobile */
-  }
 
-  .about-p {
-    padding: 1rem 0; /* Add padding for better spacing */
-  }
 
-  .about img {
-    max-width: 100%;
-    border-radius: 50%;
-  max-width: 500px;
-max-height: 500px;
-padding: 400px 70px;
+
+
 
   /* Contact adjustments for mobile */
   .contact {
