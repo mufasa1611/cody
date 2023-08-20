@@ -61,29 +61,28 @@ h1 {
 
 }
 
+/* # Navigation Menu */
+
 #nav {
+
   display: flex;
+  float: right;
+  text-decoration: none;
+  min-width: 200px;
+  padding: 10px 20px 10px 5px;
+  position: relative;
+  right: 40px;
+  top: 5px;
+  border-bottom-style: groove;
+
+}
+
+#nav li {
+
   list-style-type: none;
-  text-decoration: none;
-  padding-right: 50rem;
-  font-size: 130%;
-  letter-spacing: 2px;
-}
+  float: left;
 
-#nav li a {
-  text-decoration: none;
-}
-#nav .active {
-  border-bottom: 0.1px solid #4000ff;
-  
-}
-
-#nav>li {
-  margin-right: 8rem;
- 
-
-
-}
+  }
 
 /*----------# main container---------------*/
 
