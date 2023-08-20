@@ -566,6 +566,21 @@ footer {
 
     }
 
+/* contact section */
+
+.contact-title {
+
+  font-size: .8em;
+
+ }
+ 
+.contact-form  {
+
+  font-size: 1rem;
+  padding-left:10% ;
+  height: 100%;
+
+ }
 
 
         }
