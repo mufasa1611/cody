@@ -488,16 +488,25 @@ footer {
 }
 
 
+   /* contact section */
+
+   .contact-form  {
+
+    font-size: 1.2rem;
+    justify-content: start;
+    padding-left:7% ;
+ 
+ }
+ 
+ .contact-title {
+ 
+    font-size: 1.5em;
+ 
+ }
+ 
 
 
-
-
-
-
-  /* Contact adjustments for mobile */
-  .contact {
-    background-color: red;
-  }
+ 
 
   /* Footer adjustments for mobile */
   footer {
