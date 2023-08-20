@@ -86,7 +86,9 @@ The footer section contains clickable links to the social media accounts faceboo
 
 ### Images
 
-- The company logo and the background landing page image are used with the kind permission of the Altrad Hofmaninger company.
+- The company logo was used with kind permission of the Altrad Hofmaninger company and edited by myself.
+
+- The background landing page image is a stock image was taken from [adobe Stock](https://stock.adobe.com/at/images/alpine-lake-vorderer-gosausee-salzkammergut-is-a-famous-resort-area-located-in-the-gosau-valley-in-upper-austria-dachstein-glacier/172209739S)
 
 - The team symbol photo was taken from [pexels](https://www.pexels.com/)
 
@@ -135,10 +137,8 @@ The footer section contains clickable links to the social media accounts faceboo
 
 - I used [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to test the responsiveness and accesability.
 
-- AmIresponsive
-
 - Manual Testing:
-I tested the page on desktop, Laptop 15" and the following mobiles: Huawei P30 Lite, Asus Rog 5, and Samsung S7.
+I tested the page on desktop, Laptop 17" and the following mobiles: Huawei P30 Lite, Asus Rog 5, and Samsung S7.
 
 - Browser Testing:
 I tested the page with Chrome, Firefox and Brave
@@ -146,6 +146,8 @@ I tested the page with Chrome, Firefox and Brave
 - Google PageSpeed Insights: 
 
 ### Known bugs
+
+- I encountered problems with the section overflowing to the next section above or under it when resizing the screen. I fixed this error by applying the wrap property in the flex-value in css.
 
 ## Deployment
 
