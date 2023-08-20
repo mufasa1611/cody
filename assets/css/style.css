@@ -505,8 +505,24 @@ footer {
  }
  
 
+ .contact-form h3 {
 
- 
+  font-size: 1.2rem;
+
+}
+
+.contact-form input,
+.contact-form button {
+
+  margin-bottom: .2rem;
+  padding: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+}
+
+
+
 
   /* Footer adjustments for mobile */
   footer {
