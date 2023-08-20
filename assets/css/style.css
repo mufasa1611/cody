@@ -25,6 +25,13 @@
 
 
 /* general styles*/
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
 body {
   min-height: 100vh;
   display: flex;
@@ -107,6 +114,7 @@ h1 {
  }
 
 /* Reset styles when the link is clicked */
+
 #nav a:active {
   color: red;
   border-bottom-style:double;
