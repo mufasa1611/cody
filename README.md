@@ -140,6 +140,9 @@ The footer section contains clickable links to the social media accounts faceboo
 
 - I used [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to test the responsiveness and accesability.
 
+![Lighthouse report for Mobiles](/assets/img/Lighthouse.mob.png)
+![Lighthouse report for Desktop](/assets/img/Lighthouse.desk.png)
+
 - Manual Testing:
 I tested the page on desktop, Laptop 17" and the following mobiles: Huawei P30 Lite, Asus Rog 5, and Samsung S7.
 
@@ -154,12 +157,15 @@ I tested the page with Chrome, Firefox and Brave
 - Also the text in the "about" section was spilling over to another section when I resized to smaller screens. I stopped this by adding a pane to the text to scroll along and hide the flow in css with the overflow-x command.
 
 ## Deployment
+The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refresh with a  display to indicate the successful deployment.
 
- The repository was created on Github and then cloned on Codeanwhere. Since I found Codeanywhere too slow and having connection problems, I cloned the site on Vscode Studio. Afterwards, it was pushed onto Github, where the site was deployed via Github pages.
+The live link can be found here [http://mufasa1611.github.io/cody/](https://mufasa1611.github.io/cody/)
 
- Thus the site became live at [http://mufasa1611.github.io/cody/](https://mufasa1611.github.io/cody/)
-
-### Local Deployment 
+### Local Deployment
+The repository was created on Github and then cloned on Codeanwhere. Since I found Codeanywhere too slow and having connection problems, I cloned the site on Vscode Studio. Afterwards, it was pushed onto Github, where the site was deployed via Github pages.
 
 ## Credits
 
