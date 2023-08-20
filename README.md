@@ -42,16 +42,13 @@ The website consists of 3 sections: "Home", "About" and "Contact", a fixed navig
 
 - ### Navigation bar
 
-    "screenshot navigation with logo and menue on the right"
-  
-    ![Navbar](documentation/img/.png)
+     ![Navbar](/assets/img/nav.png)
 
-  - The Navigation bar is responsive and has a consistent look and placement on all three sections of the website. It helps the user to easily move from one section to another. It includes the company logo on the left side and the navigation menu on the right side. For better visibiliy, the menu items change their color when the mouse hovers over one of them and when they get clicked.
+  - The Navigation bar is fixed on the top of the page and responsive. Thus the look and placement on all three sections of the website is consistent. It helps the user to easily move from one section to another. It includes the company logo on the left side and the navigation menu on the right side. For better visibiliy, the menu items change their color when the mouse hovers over one of them and when they get clicked.
 
 - ### Landing page Background Image
 
-   "Landing Page Main Image with welcome to...screenshot"
-   ![Landing Page](.png)
+      ![Landing Page](/assets/img/main.png)
   
   - The landing area includes a background photo and a text overlay that together clearly identify the purpose of the business and the type of products it sells. The background color is gradient to ensure visibiliy of the text. The button below links to the "about" section. It changes the color when the mouse hovers over it.
 
@@ -118,6 +115,7 @@ The footer section contains clickable links to the social media accounts faceboo
 - [GitHub](https://github.com/) was used to host the deployed website
 - Image resize/edit/compress was done using [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html)
 - [Font Awesome:](https://fontawesome.com/) was used to add icons to the address.
+-  Screenshots were taken with [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)
 
 ### Languages Used
 
@@ -158,25 +156,19 @@ I tested the page with Chrome, Firefox and Brave
 
 ## Deployment
 
- The site was developed using Github and was pushed via VScode. The repository was created on Github and then cloned on Vscode. After creating the site on Vscode, it was pushed onto Github. The site was deployed via Github pages.
+ The repository was created on Github and then cloned on Vscode. After creating the site on Vscode, it was pushed onto Github. The site was deployed via Github pages.
 
- Thus the site became live at http:// github...
+ Thus the site became live at (https://mufasa1611.github.io/cody/)
 
 ### Local Deployment
 
- To clone this project, you can do so using VsCode editor,
- which has an integrated development Environment (IDE).
 
 ## Credits
 
- Content:
- While creating who helped and when and how
- Flexbox? youtube turorials
+ - to use flexbox I applied the info from the Love running project as part of the Code Institut Full Stack Developer Program.
 
-Software used to edit, resize, compress, animate any photo
-Screenshot
-"Am I Responsive" was used to display how the site looks on different screen sizes.
+Am I Responsive" was used to display how the site looks on different screen sizes.
 
-Acknowledgements:
+## Acknowledgements:
 
-My Mentor Jack helped and guided me through this project and did his best to answer my curious questions. My facilitator Kay did everything in her power to motivate and support me and provided me with detailed links to find the information I needed.
+- My Mentor Jack helped and guided me through this project and did his best to answer my curious questions. My facilitator Kay did everything in her power to motivate and support me and provided me with detailed links to the information I needed.
