@@ -30,8 +30,6 @@ html {
 }
 
 
-
-
 body {
   min-height: 100vh;
   display: flex;
@@ -42,31 +40,34 @@ body {
 
 
 /*----------# Header---------------*/
-header {
   
-  background-color:transparent;
-  width: 100%;
-  padding: 0 10%;
-  position: fixed;
-  z-index: 99;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  box-shadow: 0 1px 10px #060606;
+  header {
 
-}
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    box-shadow: 0 1px 10px #060606;
+    z-index: 100;
+  
+  }
+  
+
 
 header .a{
   text-decoration: none;
 }
 h1 {
-  color: inherit;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  font-family: "RobotoSerif_UltraC", sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-shadow: 0px 3px 15px #060606;
 
 }
+
 
 /* # Navigation Menu */
 
