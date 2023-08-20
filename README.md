@@ -48,7 +48,7 @@ The website consists of 3 sections: "Home", "About" and "Contact", a fixed navig
 
 - ### Landing page Background Image
 
-      ![Landing Page](/assets/img/main.png)
+ ![Landing Page background](/assets/img/main.png)
   
   - The landing area includes a background photo and a text overlay that together clearly identify the purpose of the business and the type of products it sells. The background color is gradient to ensure visibiliy of the text. The button below links to the "about" section. It changes the color when the mouse hovers over it.
 
@@ -62,26 +62,21 @@ The website consists of 3 sections: "Home", "About" and "Contact", a fixed navig
 
 This section can either be viewed by scrolling down the page to the next section below the main section or by clicking the "About" link on the navigation bar or by clicking the button on the main landing index page. This section features a symbol team photo and gives the user a short summary of the companys history, roots and information of the range of products and services offered. When the screen size gets smaller, the photo is shrinking and displayed under the text.
 
-"screenshot of about us"
-[About us](assets/img/team.png)
+![About](/assets/img/about.png)
 
 ## Contact section
 
-"screen shot of contact"
-[Contact](assets/img/.png)
-
 - The Contact page provides the user with an interactive google map showing the location of the company along with details on full address, phone number and email address. By clicking the 'View larger map', google maps opens in a new tab to allow ease of navigation. The map is fully responsive when resizing the screen.
-
-      ![Find Us](documentation/supp-images/f08-find-us.png)
 
 - The contact form allows the user to make an inquiry or leave a message. The input of the name, e-mail address and subject are mandatory. If left empty, a message pops up to ask for the input. The send button changes the color when the mouse hovers over it and when the form is sent, it is directed to the CI form dump page.
 
+![How to find us](/assets/img/contact.png)
+
 ## Footer section
 
-"screenshot of footer"
-[Screenshot of footer](assets/img/.png)
-
 The footer section contains clickable links to the social media accounts facebook, twitter and instagram. These links open in a separate tab. Also the copyright information is placed there. The footer is fixed and responsive.
+
+![footer](/assets/img/footer.png)
 
 ## Design
 
@@ -91,7 +86,7 @@ The footer section contains clickable links to the social media accounts faceboo
 
 ### Images
 
-- The company logo and the background landing page image are were kindly provided by the company Altrad Hofmaninger.
+- The company logo and the background landing page image are used with the kind permission of the Altrad Hofmaninger company.
 
 - The team symbol photo was taken from [pexels](https://www.pexels.com/)
 
@@ -104,9 +99,7 @@ The footer section contains clickable links to the social media accounts faceboo
 
 - Balsamiq was used to sketch the first ideas and outlines of the project
 
-     "screenshot" and link to the website
-
-      ![Main](documentation/wireframes/.png)
+   ![Wireframe](/assets/img/Wireframe.png)
 
 ## Technologies Used
 
@@ -115,7 +108,7 @@ The footer section contains clickable links to the social media accounts faceboo
 - [GitHub](https://github.com/) was used to host the deployed website
 - Image resize/edit/compress was done using [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html)
 - [Font Awesome:](https://fontawesome.com/) was used to add icons to the address.
--  Screenshots were taken with [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)
+- Screenshots were taken with [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)
 
 ### Languages Used
 
