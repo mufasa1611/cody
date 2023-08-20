@@ -436,21 +436,23 @@ footer {
 
   }
 
-/* media queries */
+/* media queries for width up to (767px) */
+
+@media screen and (max-width: 767px) {
+
+  /* header section */
+
+   #nav a {
+
+     padding-left: 25px ;
+     font-weight: 100;
+     text-transform: uppercase;
+     font-size: 14px;
+ }
 
 
 
-/* Mobile devices up to 767px */
-@media screen and (min-width: 280px) and (max-width: 768px) {
-  
-  header {
-    padding: 0.5rem; /* Adjust header padding for smaller screens */
-  }
-
-  /* Main adjustments for mobile */
-  main {
-    background-color: #ff0000;
-  }
+}
 
   /* About section adjustments for mobile */
   #about {
