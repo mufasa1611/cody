@@ -56,7 +56,9 @@ The website consists of 3 sections: "Home", "About" and "Contact", a fixed navig
 
 - In the event of a 404 "page not found" error, the user will be directed to an error page.
 
-    ![404 page](<https://github.com/my> github address/404.PNG?raw=true)
+  ![404 page](<https://github.com/my> github address/404.PNG?raw=true)
+
+  The error page was created with [stable diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) and edited with [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html).
 
 ## The About section
 
@@ -108,9 +110,10 @@ The footer section contains clickable links to the social media accounts faceboo
 - [Balsamiq](https://balsamiq.com/) was used to pre-design the layout
 - [Visual Studio Code](https://code.visualstudio.com/) was used to write and edit the code and host the site on my local computer
 - [GitHub](https://github.com/) was used to host the deployed website
-- Image resize/edit/compress was done using [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html)
+- Image resize/edit was done using [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html)
 - [Font Awesome:](https://fontawesome.com/) was used to add icons to the address.
 - Screenshots were taken with [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)
+- png image compress was done with [compresspng](https://compresspng.com/)
 
 ### Languages Used
 
@@ -160,10 +163,12 @@ I tested the page with Chrome, Firefox and Brave
 
 ## Credits
 
-- to use flexbox I applied the info from the Love running project as part of the Code Institut Full Stack Developer Program.
+- to use flexbox I applied the info from the Love running project as part of the Code Institut Full Stack Software Developer Program.
 - a big help about flexbox and lots of other topics was the [youtube channel of Kevin Powell](https://www.youtube.com/@KevinPowell)
+- I used the code for the transitions with my buttons from [W3Schools.com](https://www.w3schools.com/css/css3_transitions.asp)
+- I used the tutorial from [W3Schools.com](https://www.w3schools.com/cssref/sel_nth-child.php) for my nth address indent.
 
-Am I Responsive" was used to display how the site looks on different screen sizes.
+
 
 ## Acknowledgements
 

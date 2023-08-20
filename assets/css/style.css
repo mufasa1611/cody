@@ -165,7 +165,7 @@ h1 {
   letter-spacing: 1px;
 
 }
-
+/* see credits in the readme.md about transition */
 .btn {
 
   font-family: 'RobotoSerif_Thin', sans-serif;
@@ -344,6 +344,7 @@ iframe{
    
 }
 
+/* see credits in the readme.md about transition */
 .contact-form button:hover {
 
   background: #d14200e8;
@@ -376,7 +377,7 @@ iframe{
  margin-bottom: 3px;
 
 }
-
+/* see credits in the readme.md about nth child selector */
 .address p:nth-child(3),
 .address p:nth-child(4) {
 
