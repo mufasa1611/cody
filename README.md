@@ -46,21 +46,21 @@ The website consists of 3 sections: "Home", "About" and "Contact", a fixed navig
 
   - The Navigation bar is fixed on the top of the page and responsive. Thus the look and placement on all three sections of the website is consistent. It helps the user to easily move from one section to another. It includes the company logo on the left side and the navigation menu on the right side. For better visibiliy, the menu items change their color when the mouse hovers over one of them and when they get clicked.
 
-- ### Landing page Background Image
+### Landing page Background Image
 
  ![Landing Page background](/assets/img/main.png)
   
-  - The landing area includes a background photo and a text overlay that together clearly identify the purpose of the business and the type of products it sells. The background color is gradient to ensure visibiliy of the text. The button below links to the "about" section. It changes the color when the mouse hovers over it.
+- The landing area includes a background photo and a text overlay that together clearly identify the purpose of the business and the type of products it sells. The background color is gradient to ensure visibiliy of the text. The button below links to the "about" section. It changes the color when the mouse hovers over it.
 
-- ### 404 Error page
+### 404 Error page
 
-  - In the event of a 404 "page not found" error, the user will be directed to an error page.
+- In the event of a 404 "page not found" error, the user will be directed to an error page.
 
     ![404 page](<https://github.com/my> github address/404.PNG?raw=true)
 
 ## The About section
 
-This section can either be viewed by scrolling down the page to the next section below the main section or by clicking the "About" link on the navigation bar or by clicking the button on the main landing index page. This section features a symbol team photo and gives the user a short summary of the companys history, roots and information of the range of products and services offered. When the screen size gets smaller, the photo is shrinking and displayed under the text.
+This section can either be viewed by scrolling down the page to the next section below the main section or by clicking the "About" link on the navigation bar or by clicking the button on the main landing index page. This section features a symbol team photo and gives the user a short summary of the companys history, roots and information of the range of products and services offered. When the screen size gets smaller, the photo is shrinking and displayed under the text. 
 
 ![About](/assets/img/about.png)
 
@@ -148,22 +148,23 @@ I tested the page with Chrome, Firefox and Brave
 ### Known bugs
 
 - I encountered problems with the section overflowing to the next section above or under it when resizing the screen. I fixed this error by applying the wrap property in the flex-value in css.
+- Also the text in the "about" section was spilling over to another section when I resized to smaller screens. I stopped this by adding a pane to the text to scroll along and hide the flow in css with the overflow-x command.
 
 ## Deployment
 
- The repository was created on Github and then cloned on Vscode. After creating the site on Vscode, it was pushed onto Github. The site was deployed via Github pages.
+ The repository was created on Github and then cloned on Codeanwhere. Since I found Codeanywhere too slow and having connection problems, I cloned the site on Vscode Studio. Afterwards, it was pushed onto Github, where the site was deployed via Github pages.
 
- Thus the site became live at (https://mufasa1611.github.io/cody/)
+ Thus the site became live at [http://mufasa1611.github.io/cody/](https://mufasa1611.github.io/cody/)
 
-### Local Deployment
-
+### Local Deployment 
 
 ## Credits
 
- - to use flexbox I applied the info from the Love running project as part of the Code Institut Full Stack Developer Program.
+- to use flexbox I applied the info from the Love running project as part of the Code Institut Full Stack Developer Program.
+- a big help about flexbox and lots of other topics was the [youtube channel of Kevin Powell](https://www.youtube.com/@KevinPowell)
 
 Am I Responsive" was used to display how the site looks on different screen sizes.
 
-## Acknowledgements:
+## Acknowledgements
 
-- My Mentor Jack helped and guided me through this project and did his best to answer my curious questions. My facilitator Kay did everything in her power to motivate and support me and provided me with detailed links to the information I needed.
+- My Mentor Jack Wachira helped and guided me through this project and was a big help with my github issues. My facilitator Kay did everything in her power to motivate and support me and provided me with detailed links to the information I needed.
