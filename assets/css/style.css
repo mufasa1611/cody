@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,700&family=Lato:wght@300&family=Open+Sans:ital@1&display=swap');
 
 /* local fonts import */
+
 @font-face {
   font-family: 'RobotoSerif_UltraC'; 
   src: url('../fonts/RobotoSerif_UltraC.ttf');}
@@ -12,8 +13,6 @@
   src: url('../fonts/RobotoSerif_Thin.ttf');
 
 }
-
-
 
 /*--# wild card --*/
 
@@ -25,19 +24,21 @@
 
 
 /* general styles*/
+
 html {
+
   scroll-behavior: smooth;
+
 }
 
+body  {
 
-body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: "RobotoSerif_UltraC", "RobotoSerif_Thin", sans-serif;
+
 }
-
-
 
 /*--# Header ---*/
   
@@ -54,8 +55,6 @@ body {
   
   }
   
-
-
 header .a{
   text-decoration: none;
 }
@@ -68,7 +67,6 @@ h1 {
   text-shadow: 0px 3px 15px #060606;
 
 }
-
 
 /* # Navigation Menu */
 
@@ -138,8 +136,6 @@ h1 {
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, .9)),
   url("../img/bground.jpg") no-repeat center center/cover;
   
-
-
 }
 
 
@@ -155,17 +151,17 @@ h1 {
 
 }
 
- 
-
 .main h2 {
  
   color: #f8f8f8;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-size: 20px;
   letter-spacing: 1px;
-
+  
 }
+
 /* see credits in the readme.md about transition */
+
 .btn {
 
   font-family: 'RobotoSerif_Thin', sans-serif;
@@ -193,6 +189,7 @@ h1 {
 
 
 /*----------# about---------------*/
+
 #about {
 
   position:sticky;
@@ -244,7 +241,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("..assets/img/team.jpg") no-repeat / center;
+  background: url("../img/team.jpg") no-repeat;
   width: 430px;
   height: 430px;
   max-width: 100%;
@@ -345,6 +342,7 @@ iframe{
 }
 
 /* see credits in the readme.md about transition */
+
 .contact-form button:hover {
 
   background: #d14200e8;
@@ -378,6 +376,7 @@ iframe{
 
 }
 /* see credits in the readme.md about nth child selector */
+
 .address p:nth-child(3),
 .address p:nth-child(4) {
 
