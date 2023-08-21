@@ -182,6 +182,7 @@ The repository was created on Github and then cloned on Codeanywhere. Since I fo
 - a big help about flexbox and lots of other topics was the [youtube channel of Kevin Powell](https://www.youtube.com/@KevinPowell)
 - I used the code for the transitions with my buttons from [W3Schools.com](https://www.w3schools.com/css/css3_transitions.asp)
 - I used the tutorial from [W3Schools.com](https://www.w3schools.com/cssref/sel_nth-child.php) for my nth address indent.
+- I created the fade in-out effect on the 404.html page with
 
 ## Acknowledgements
 
