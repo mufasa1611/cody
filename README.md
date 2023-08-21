@@ -3,7 +3,7 @@
 
 ## Welcome to Altrad Hofmaninger
 
-Altrad Hofmaninger is the Austrian branch of Altrad Group. This is the website of the leading producer of wheelbarrows in Europe. I want to create a basic website, that provides visitors with information about the company and the products.
+Altrad Hofmaninger is the Austrian branch of the Altrad Group. This is the website of the leading producer of wheelbarrows in Europe. I want to create a basic website, that provides visitors with information about the company and the products.
 
 You can find the live website [here](https://mufasa1611.github.io/cody/)
 
@@ -30,6 +30,7 @@ The objective is to inform existing and potential future customers about the com
   - As a first time visitor, I want to easily understand the purpose of the site and learn about the company
   - I want to able to easily and intuitively navigate throughout the site to find the content I am looking for
   - I want to able to find out the location, address and contact details of the company quickly
+  - I want to be able to leave a comment or feedback or inquiry
 
 - #### B. Returning or Frequent Visitor Goals
 
@@ -44,17 +45,23 @@ The website consists of 3 sections: "Home", "About" and "Contact", a fixed navig
 
      ![Navbar](/assets/img/nav.png)
 
-  - The Navigation bar is fixed on the top of the page and responsive. Thus the look and placement on all three sections of the website is consistent. It helps the user to easily move from one section to another. It includes the company logo on the left side and the navigation menu on the right side. For better visibiliy, the menu items change their color when the mouse hovers over one of them and when they get clicked.
+  - The Navigation bar is fixed on the top of the page and responsive. Thus the look and placement on all three sections of the website is consistent. It helps the user to easily move from one section to another. It includes the company logo on the left side and the navigation menu on the right side. For better visibiliy, the menu items change their color when the mouse hovers over one of them and when they get clicked and they stay yellow until the user clicks another link.
 
 ### Landing page Background Image
 
  ![Landing Page background](/assets/img/main.png)
   
-- The landing area includes a background photo and a text overlay that together clearly identify the purpose of the business and the type of products it sells. The background color is gradient to ensure visibiliy of the text. The button below links to the "about" section. It changes the color when the mouse hovers over it.
+- The landing area includes a background photo and a text overlay that clearly identify the purpose of the business and the type of products it sells. The background color is gradient to ensure visibiliy of the text. The button below links to the "about" section. It changes the color when the mouse hovers over it.
 
 ## The About section
 
-This section can either be viewed by scrolling down the page to the next section below the main section or by clicking the "About" link on the navigation bar or by clicking the button on the main landing index page. This section features a symbol team photo and gives the user a short summary of the companys history, roots and information of the range of products and services offered. When the screen size gets smaller, the photo is shrinking and displayed under the text.
+This section can either be viewed by
+
+- scrolling down the page to the next section below the main section
+- clicking the "About" link on the navigation bar
+- clicking the button on the main landing index page
+
+This section features a symbol team photo and gives the user a short summary of the companys history, roots and information of the range of products and services offered. When the screen size gets smaller, the photo is shrinking and displayed under the text.
 
 ![About](/assets/img/about.png)
 
@@ -68,7 +75,7 @@ This section can either be viewed by scrolling down the page to the next section
 
 ## Footer section
 
-The footer section contains clickable links to the social media accounts facebook, twitter and instagram. These links open in a separate tab. Also the copyright information is placed there. The footer is fixed and responsive.
+The footer section contains clickable links to the social media accounts facebook, twitter and instagram. These links open in a separate tab. Also the copyright information is placed there. The footer is fixed and responsive. The background is gradient for better visibility.
 
 ![footer](/assets/img/footer.png)
 
@@ -84,13 +91,12 @@ The footer section contains clickable links to the social media accounts faceboo
 
 ![404 page](/assets/img/404-pic.png)
 
-- The error page image was created with [stable diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) and edited with [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html).
-
+-
 ### Images
 
 - The company logo was used with kind permission of the Altrad Hofmaninger company and edited by myself.
 
-- The background landing page image is a free stock image from [adobe Stock](https://stock.adobe.com/at/images/alpine-lake-vorderer-gosausee-salzkammergut-is-a-famous-resort-area-located-in-the-gosau-valley-in-upper-austria-dachstein-glacier/172209739S)
+- The background landing page image was taken from [adobe Stock](https://stock.adobe.com/at/images/alpine-lake-vorderer-gosausee-salzkammergut-is-a-famous-resort-area-located-in-the-gosau-valley-in-upper-austria-dachstein-glacier/172209739S)
 
 - The team symbol photo was taken from [pexels](https://www.pexels.com/)
 
@@ -114,6 +120,8 @@ The footer section contains clickable links to the social media accounts faceboo
 - [Font Awesome:](https://fontawesome.com/) was used to add icons to the address.
 - Screenshots were taken with [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)
 - png image compress was done with [compresspng](https://compresspng.com/)
+- The error page image was created with [stable diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) and edited with [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html).
+
 
 ### Languages Used
 
@@ -126,7 +134,7 @@ The footer section contains clickable links to the social media accounts faceboo
 
 #### W3C HTML validator
 
- The [W3C Html validator](https://validator.w3.org/) found the following errors:
+ The [W3C Html validator](https://validator.w3.org/) initially found the following errors:
 
 - Trailing slashes on void elements that had no effect and interacted badly with unquoted attribute values. This could be corrected by simply deleting the slashes.
 
@@ -136,18 +144,16 @@ The footer section contains clickable links to the social media accounts faceboo
 
 #### W3C CSS validator
 
-- The [jigsaw W3C validator](https://jigsaw.w3.org/css-validator/) found an open div without closing tag, which was corrected.
+- The [jigsaw W3C validator](https://jigsaw.w3.org/css-validator/) initially found an open div without closing tag, which was corrected.
 
 ![Jigsaw W3C CSS report](/assets/img/Screenshot.css.W3C.png)
 
 ### Browser Compatibility
 
-- I used [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to test the responsiveness and accessability.
+- I used [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to test the responsiveness and accessability for mobiles and desktop view.
 
 ![Lighthouse report for Mobiles](/assets/img/Lighthouse.mob.png)
 ![Lighthouse report for Desktop](/assets/img/Lighthouse.desk.png)
-
-- Google PageSpeed Insights:
 
 ### Manual Testing
 
@@ -155,13 +161,11 @@ I tested the page on:
 
 - desktop, Laptop 17"
 - the following mobiles: Huawei P30 Lite, Asus Rog 5, and Samsung S7
-
-- Browser Testing: I tested the page with Chrome, Firefox and Brave.
+- Browser Testing: I tested the page with Chrome, Firefox and Brave
 
 ### Known bugs
 
 - I encountered problems with the section overflowing to the next section above or under it when resizing the screen. I fixed this error by applying the wrap property in the flex-value in css.
-- Also the text in the "about" section was spilling over to another section when I resized to smaller screens. I stopped this by adding a pane to the text to scroll along and hide the flow in css with the overflow-x command.
 
 ## Deployment
 
@@ -181,7 +185,8 @@ The repository was created on Github and then cloned on Codeanywhere. Since I fo
 - a big help about flexbox and lots of other topics was the [youtube channel of Kevin Powell](https://www.youtube.com/@KevinPowell)
 - I used the code for the transitions with my buttons from [W3Schools.com](https://www.w3schools.com/css/css3_transitions.asp)
 - I used the tutorial from [W3Schools.com](https://www.w3schools.com/cssref/sel_nth-child.php) for my nth address indent.
-- I created the ease in-out effect on the 404.html page with 
+- I created the ease in-out effect on the 404.html page with
+- Martin from CI Tutoring helped me out by adding js to my page to have the menu links in the nav bar keep the color yellow after they are clicked (for the user to know which page he is on).
 
 ## Acknowledgements
 
@@ -190,3 +195,5 @@ Big Thanks to:
 - My Mentor [Jack Wachira](https://code-institute-room.slack.com/team/U01GBLV8S9L) for his help and guidance through this project, he also was a big help with my github issues.
 
 - My facilitator [Kay Ci](https://code-institute-room.slack.com/team/U056NU8DZEW) did everything in her power to motivate and support me and provided me with detailed links to the information I needed.
+
+- Martin from CI tutoring
