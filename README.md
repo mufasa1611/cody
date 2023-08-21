@@ -13,7 +13,7 @@ The objective is to inform existing and potential future customers about the com
 
 ## Index - Table of Contents
 
-1. [User Experience (UX)](#user-exp-ux)
+1. [User Experience UX](#user-experience-ux)
 2. [Features](#features)
 3. [Design](#design)
 4. [Technologies Used](#technologies-used)
@@ -21,7 +21,7 @@ The objective is to inform existing and potential future customers about the com
 6. [Deployment](#deployment)
 7. [Credits](#credits)
 
-## User Experience (UX)
+## User Experience UX
 
 ### User Stories
 
@@ -58,11 +58,11 @@ The website consists of 3 sections: "Home", "About" and "Contact", a fixed navig
 
   ![404 page](<https://github.com/my> github address/404.PNG?raw=true)
 
-  The error page was created with [stable diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) and edited with [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html).
+  The error page image was created with [stable diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) and edited with [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html).
 
 ## The About section
 
-This section can either be viewed by scrolling down the page to the next section below the main section or by clicking the "About" link on the navigation bar or by clicking the button on the main landing index page. This section features a symbol team photo and gives the user a short summary of the companys history, roots and information of the range of products and services offered. When the screen size gets smaller, the photo is shrinking and displayed under the text. 
+This section can either be viewed by scrolling down the page to the next section below the main section or by clicking the "About" link on the navigation bar or by clicking the button on the main landing index page. This section features a symbol team photo and gives the user a short summary of the companys history, roots and information of the range of products and services offered. When the screen size gets smaller, the photo is shrinking and displayed under the text.
 
 ![About](/assets/img/about.png)
 
@@ -132,9 +132,13 @@ The footer section contains clickable links to the social media accounts faceboo
 
 - google maps did not open correctly because of a mistake in the API key, which was corrected.
 
+![W3C Html report](/assets/img/Screenshot.html.w3.png)
+
 #### W3C CSS validator
 
 - The [jigsaw W3C validator](https://jigsaw.w3.org/css-validator/) found an open div without closing tag, which was corrected.
+
+![Jigsaw W3C CSS report](/assets/img/Screenshot.css.W3C.png)
 
 ### Browser Compatibility
 
@@ -149,7 +153,7 @@ I tested the page on desktop, Laptop 17" and the following mobiles: Huawei P30 L
 - Browser Testing:
 I tested the page with Chrome, Firefox and Brave
 
-- Google PageSpeed Insights: 
+- Google PageSpeed Insights:
 
 ### Known bugs
 
@@ -157,6 +161,7 @@ I tested the page with Chrome, Firefox and Brave
 - Also the text in the "about" section was spilling over to another section when I resized to smaller screens. I stopped this by adding a pane to the text to scroll along and hide the flow in css with the overflow-x command.
 
 ## Deployment
+
 The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
@@ -165,6 +170,7 @@ Once the master branch has been selected, the page will be automatically refresh
 The live link can be found here [http://mufasa1611.github.io/cody/](https://mufasa1611.github.io/cody/)
 
 ### Local Deployment
+
 The repository was created on Github and then cloned on Codeanwhere. Since I found Codeanywhere too slow and having connection problems, I cloned the site on Vscode Studio. Afterwards, it was pushed onto Github, where the site was deployed via Github pages.
 
 ## Credits
@@ -174,8 +180,10 @@ The repository was created on Github and then cloned on Codeanwhere. Since I fou
 - I used the code for the transitions with my buttons from [W3Schools.com](https://www.w3schools.com/css/css3_transitions.asp)
 - I used the tutorial from [W3Schools.com](https://www.w3schools.com/cssref/sel_nth-child.php) for my nth address indent.
 
-
-
 ## Acknowledgements
 
-- My Mentor Jack Wachira helped and guided me through this project and was a big help with my github issues. My facilitator Kay did everything in her power to motivate and support me and provided me with detailed links to the information I needed.
+Big Thanks to:
+
+- My Mentor [Jack Wachira](https://code-institute-room.slack.com/team/U01GBLV8S9L) for his help and guidance through this project, he also was a big help with my github issues.
+
+- My facilitator [Kay Ci](https://code-institute-room.slack.com/team/U056NU8DZEW) did everything in her power to motivate and support me and provided me with detailed links to the information I needed.
