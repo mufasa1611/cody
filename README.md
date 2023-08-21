@@ -52,13 +52,6 @@ The website consists of 3 sections: "Home", "About" and "Contact", a fixed navig
   
 - The landing area includes a background photo and a text overlay that together clearly identify the purpose of the business and the type of products it sells. The background color is gradient to ensure visibiliy of the text. The button below links to the "about" section. It changes the color when the mouse hovers over it.
 
-### 404 Error page
-
-- In the event of a 404 "page not found" error, the user will be directed to an error page.
-
-  ![404 page](<https://github.com/my> github address/404.PNG?raw=true)
-
-  The error page image was created with [stable diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) and edited with [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html).
 
 ## The About section
 
@@ -86,18 +79,26 @@ The footer section contains clickable links to the social media accounts faceboo
 
 - I chose colors that do contrast very well to ensure that also vision impaired users can clearly view the content, buttons, links and other elements.
 
+### 404 Error page
+
+- In the event of a 404 "page not found" error, the user will be directed to an error page.
+
+  ![404 page](<https://github.com/my> github address/404.PNG?raw=true)
+
+- The error page image was created with [stable diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) and edited with [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html).
+
 ### Images
 
 - The company logo was used with kind permission of the Altrad Hofmaninger company and edited by myself.
 
-- The background landing page image is a stock image was taken from [adobe Stock](https://stock.adobe.com/at/images/alpine-lake-vorderer-gosausee-salzkammergut-is-a-famous-resort-area-located-in-the-gosau-valley-in-upper-austria-dachstein-glacier/172209739S)
+- The background landing page image is a free stock image from [adobe Stock](https://stock.adobe.com/at/images/alpine-lake-vorderer-gosausee-salzkammergut-is-a-famous-resort-area-located-in-the-gosau-valley-in-upper-austria-dachstein-glacier/172209739S)
 
 - The team symbol photo was taken from [pexels](https://www.pexels.com/)
 
 ### Typography
 
 - Google fonts were used to import "Sans Serif fonts" into styles.css.
-- The fonts  'RobotoSerif_UltraC' and 'RobotoSerif_Thin' were downloaded from???? and are placed in the local folder "fonts".
+- The fonts 'RobotoSerif_UltraC' and 'RobotoSerif_Thin' belong to the free Roboto font family, were downloaded from google fonts and are placed in the local folder "fonts".
 
 ### Wireframes
 
@@ -142,18 +143,21 @@ The footer section contains clickable links to the social media accounts faceboo
 
 ### Browser Compatibility
 
-- I used [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to test the responsiveness and accesability.
+- I used [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to test the responsiveness and accessability.
 
 ![Lighthouse report for Mobiles](/assets/img/Lighthouse.mob.png)
 ![Lighthouse report for Desktop](/assets/img/Lighthouse.desk.png)
 
-- Manual Testing:
-I tested the page on desktop, Laptop 17" and the following mobiles: Huawei P30 Lite, Asus Rog 5, and Samsung S7.
-
-- Browser Testing:
-I tested the page with Chrome, Firefox and Brave
-
 - Google PageSpeed Insights:
+
+### Manual Testing
+
+I tested the page on:
+
+- desktop, Laptop 17"
+- the following mobiles: Huawei P30 Lite, Asus Rog 5, and Samsung S7
+
+- Browser Testing: I tested the page with Chrome, Firefox and Brave.
 
 ### Known bugs
 
@@ -164,14 +168,13 @@ I tested the page with Chrome, Firefox and Brave
 
 The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refresh with a  display to indicate the successful deployment.
+From the source section drop-down menu, select the Main Branch. Once the main branch has been selected, the page will automatically refresh with a display to indicate the successful deployment.
 
 The live link can be found here [http://mufasa1611.github.io/cody/](https://mufasa1611.github.io/cody/)
 
 ### Local Deployment
 
-The repository was created on Github and then cloned on Codeanwhere. Since I found Codeanywhere too slow and having connection problems, I cloned the site on Vscode Studio. Afterwards, it was pushed onto Github, where the site was deployed via Github pages.
+The repository was created on Github and then cloned on Codeanywhere. Since I found Codeanywhere too slow and having connection problems, I cloned the site on Vscode Studio. Afterwards, it was pushed onto Github, where the site was deployed via Github pages.
 
 ## Credits
 
