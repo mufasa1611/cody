@@ -52,7 +52,6 @@ The website consists of 3 sections: "Home", "About" and "Contact", a fixed navig
   
 - The landing area includes a background photo and a text overlay that together clearly identify the purpose of the business and the type of products it sells. The background color is gradient to ensure visibiliy of the text. The button below links to the "about" section. It changes the color when the mouse hovers over it.
 
-
 ## The About section
 
 This section can either be viewed by scrolling down the page to the next section below the main section or by clicking the "About" link on the navigation bar or by clicking the button on the main landing index page. This section features a symbol team photo and gives the user a short summary of the companys history, roots and information of the range of products and services offered. When the screen size gets smaller, the photo is shrinking and displayed under the text.
@@ -81,9 +80,9 @@ The footer section contains clickable links to the social media accounts faceboo
 
 ### 404 Error page
 
-- In the event of a 404 "page not found" error, the user will be directed to an error page.
+- In the event of a 404 "page not found" error, the user will be directed to a costomized error page.
 
-  ![404 page](<https://github.com/my> github address/404.PNG?raw=true)
+![404 page](/assets/img/404-pic.png)
 
 - The error page image was created with [stable diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) and edited with [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html).
 
