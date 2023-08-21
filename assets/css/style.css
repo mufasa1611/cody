@@ -22,6 +22,43 @@
   box-sizing: border-box;
 }
 
+  /*----------# 404 error_ page ---------------*/
+
+  .error-body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../img/404.png') no-repeat center center fixed;
+    background-size:cover;
+ 
+    }
+
+    .error-header{
+      background-color: transparent;
+    
+    }
+
+    .error-message {
+     margin: 0 auto;
+     text-align: center;
+     font-size: 2em;
+     color: #ff0303;
+     animation: fadeInOut 4s infinite;
+    
+  }
+
+  @keyframes fadeInOut {
+      
+    0%, 100% {
+        opacity: 1;}
+    50% {
+        opacity: 0;}
+ }
+    
 
 /* general styles*/
 
