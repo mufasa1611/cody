@@ -5,10 +5,11 @@
 /* local fonts import */
 
 @font-face {
-  font-family: 'RobotoSerif_UltraC'; 
-  src: url('../fonts/RobotoSerif_UltraC.ttf');}
+  font-family: 'RobotoSerif_UltraC';
+  src: url('../fonts/RobotoSerif_UltraC.ttf');
+}
 
-  @font-face {
+@font-face {
   font-family: 'RobotoSerif_Thin';
   src: url('../fonts/RobotoSerif_Thin.ttf');
 
@@ -21,79 +22,86 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 /* see credits in the readme.md about fade in-out */
 
-  /*----------# 404 error_ page ---------------*/
+/*----------# 404 error_ page ---------------*/
 
-  .error-body {
+.error-body {
 
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url('../img/404.png') no-repeat center center fixed;
-    background-size:cover;
- 
-    }
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../img/404.png') no-repeat center center fixed;
+  background-size: cover;
 
-    .error-header{
-      background-color: transparent;
-    
-    }
+}
 
-    .error-message {
-     margin: 0 auto;
-     text-align: center;
-     font-size: 2em;
-     color: #ff0303;
-     animation: fadeInOut 4s infinite;
-    
+.error-header {
+  background-color: transparent;
+
+}
+
+.error-message {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+  color: #ff0303;
+  animation: fadeInOut 4s infinite;
+
+}
+
+@keyframes fadeInOut {
+
+  25%,
+  100% {
+    opacity: 1;
   }
 
-  @keyframes fadeInOut {
-      
-    25%, 100% {
-        opacity: 1;}
-    50% {
-        opacity: 0;}
- }
-    
+  50% {
+    opacity: 0;
+  }
+}
+
 
 /* general styles*/
 
 html {
 
   scroll-behavior: smooth;
+  height: 100%;
 
 }
 
-body  {
+body {
 
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   font-family: "RobotoSerif_UltraC", "RobotoSerif_Thin", sans-serif;
+  margin-top: auto;
 
 }
 
 /*--# Header ---*/
-  
-  header {
 
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    box-shadow: 0 1px 10px #060606;
-    z-index: 100;
-  
-  }
-  
-header .a{
+header {
+
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  box-shadow: 0 1px 10px #060606;
+  z-index: 100;
+
+}
+
+header .a {
   text-decoration: none;
 }
 
@@ -125,11 +133,10 @@ h1 {
 .nav li {
 
   list-style-type: none;
-  
 
-  }
+}
 
-  /*---- Nav Link Styling ----*/
+/*---- Nav Link Styling ----*/
 
 .nav a {
 
@@ -142,7 +149,6 @@ h1 {
   border-bottom-style: groove;
   transition: color .5s ease-in-out;
 
-
 }
 
 .nav a:hover {
@@ -150,15 +156,15 @@ h1 {
   color: rgb(255, 188, 3);
   font-weight: 200;
 
- }
+}
 
 /* Martin */
 
 .nav a.active {
-  color: red;
-  
-  }
 
+  color: red;
+
+}
 
 /*----------# main container---------------*/
 
@@ -172,30 +178,30 @@ h1 {
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, .9)),
-  url("../img/bground.jpg") no-repeat center center/cover;
-  
+    url("../img/bground.jpg") no-repeat center center/cover;
+
 }
 
 
 .main h1 {
 
-   margin: 30px 0 10px 0;
+  margin: 30px 0 10px 0;
   font-size: 48px;
   font-weight: 300;
   line-height: 56px;
   text-transform: uppercase;
   color: #fff;
- 
+
 
 }
 
 .main h2 {
- 
+
   color: #f8f8f8;
   margin-bottom: 10px;
   font-size: 20px;
   letter-spacing: 1px;
-  
+
 }
 
 /* see credits in the readme.md about transition */
@@ -230,38 +236,38 @@ h1 {
 
 #about {
 
-  position:sticky;
+  position: sticky;
   justify-content: space-around;
   background: #fff;
   display: flex;
   flex-wrap: wrap;
-  flex:100%;
-  min-height:100vh;
+  flex: 100%;
+  min-height: 100vh;
   padding-top: 10%;
   overflow: hidden;
- 
+
 }
 
- .content {
+.content {
 
   display: flex;
   flex-direction: column;
   width: 50%;
   padding-left: 10%;
-  max-height:500px ;
- 
+  max-height: 500px;
+
 }
 
 .content h3 {
 
   font-size: 1.4rem;
   text-decoration: underline;
-    background-color: transparent;
-  color:#0318ff;
- 
+  background-color: transparent;
+  color: #0318ff;
+
 }
 
-.content p  {
+.content p {
 
   display: flex;
   font-family: 'RobotoSerif_Thin', sans-serif;
@@ -277,17 +283,15 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 430px;
-  height: 430px;
+  width: 450px;
+  height: 450px;
   max-width: 100%;
-  border-radius: 50%;
-  margin-top: 10%;
+  border-radius: 20%;
+  margin-top: 20%;
 
-  }
+}
 
-
-
-  /*----------# contact---------------*/
+/*----------# contact---------------*/
 
 #contact {
 
@@ -299,7 +303,7 @@ h1 {
   font-size: 1.5rem;
   padding-top: 80px;
 
-  }
+}
 
 .contact-title {
 
@@ -320,13 +324,13 @@ h1 {
 
 .google-map {
 
-  display:flex;
-  justify-content:center;
-  padding-bottom:5% ;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
 
 }
 
-iframe{
+iframe {
 
   width: 80%;
 
@@ -335,12 +339,12 @@ iframe{
 /* Styles for the Contact form */
 
 .contact-form {
-  
+
   flex-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
   flex: 100%;
- 
+
 }
 
 .contact-form h3 {
@@ -357,24 +361,20 @@ iframe{
   display: flex;
   flex: 50%;
   flex-direction: column;
- 
+
 }
 
 .contact-form input,
-.contact-form button{
+.contact-form button {
 
   margin-bottom: 1rem;
   padding: 0.5rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
-
-}
-.contact-form button {
-
-  border: 1px solid #000000;
   border-radius: 20px;
-   
+  z-index: 1;
+
 }
+
 
 /* see credits in the readme.md about transition */
 
@@ -386,12 +386,13 @@ iframe{
   color: #ffffff;
 
 }
+
 .contact-form address {
 
   display: flex;
   flex: 50%;
 
- }
+}
 
 .address h3 {
 
@@ -400,22 +401,23 @@ iframe{
   text-decoration: underline;
   font-size: 1.5rem;
 
- }
+}
 
 .address p {
 
- line-height: 100%;
- padding-top: 5px;
- font-size: 1.1rem;
- margin-bottom: 3px;
+  line-height: 100%;
+  padding-top: 5px;
+  font-size: 1.1rem;
+  margin-bottom: 3px;
 
 }
+
 /* see credits in the readme.md about nth child selector */
 
 .address p:nth-child(3),
 .address p:nth-child(4) {
 
- text-indent: 2.3rem;
+  text-indent: 2.3rem;
 
 }
 
@@ -431,7 +433,7 @@ iframe{
 footer {
 
   font-size: .8rem;
-  text-decoration:wavy;
+  text-decoration: wavy;
   position: fixed;
   bottom: 0px;
   left: 0;
@@ -479,165 +481,178 @@ footer {
   color: rgb(11, 158, 0);
   font-weight: 200;
 
-  }
+}
 
-/* media queries for width up to (767px) */
+/* media queries for width up to (867px) */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 867px) {
 
   /* header section */
 
-   .nav a {
+  .nav a {
 
-     padding-left: 25px ;
-     font-weight: 100;
-     font-size: 14px;
- }
+    padding-left: 25px;
+    font-weight: 100;
+    font-size: 14px;
+  }
+
+  /* about section */
+
+  #about {
+
+    max-height: 100%;
+    padding-top: 5%;
+
+  }
+
+  .content {
+
+    align-items: center;
+    justify-content: center;
+    padding: 10% 0% 0% 0%;
+    width: 95%;
+    height: 100%;
+
+  }
+
+  .content img {
+
+    width: 50%;
+    height: 50%;
+    max-width: 100%;
+    margin-bottom: 25%;
+
+  }
+
+  .content p {
+
+    margin-top: 5%;
+    font-size: 1rem;
+    overflow-x: auto;
+    max-height: 400px;
+  }
 
 
+  /* contact section */
 
-   /* about section */
-
-   #about{
-
-    max-height:100%;
- padding-top: 15%;
- 
-}
-   .content { 
-
-     align-items: center;
-     justify-content: center;
-     padding:5% 0% 0% 0%;
-     width: 90%;
-     height: 100%;
-    
-}
-
-.content img { 
-
-  width: 55%;
-    height: 55%;
-  max-width: 100%;
-  margin-bottom: 30%;
-      
-}
-  
- .content p {
-
-  padding-top: 3%;
-  font-size: 1rem;
-  overflow-x: auto;
-  max-height:300px;
-}
-
-
-   /* contact section */
-
-   .contact-form  {
+  .contact-form {
 
     font-size: 1.2rem;
     justify-content: start;
-    padding-left:7% ;
- 
- }
- 
- .contact-title {
- 
+    padding-left: 5%;
+
+  }
+
+  .contact-title {
+
     font-size: 1.5em;
- 
- }
- 
-
- .contact-form h3 {
-
-  font-size: 1.2rem;
-
-}
-
-.contact-form input,
-.contact-form button {
-
-  margin-bottom: .2rem;
-  padding: 0.2rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-
-}
-
-.address {
-
-  width: 100%; 
-  padding: 1% 0 0 2%;
-
-}
-
- .address p {
-
-   font-size: .8rem;
-   padding-top: .45%;
-
-}
-
-         .address  h3 {
-
-           font-size: 1.2rem;
-           padding-bottom: 2%;
-
-           }
-   }
-
-        /* media queries for width up to (416px) */
-
-        @media screen and (max-width: 416px){
-
-          /* header section */
-       
-       .nav a {
-       
-         padding-left: 20px ;
-         font-size: 12px;
-       
-          }
-       
-
-/* contact section */
-
-.contact-title {
-
-  font-size: .8em;
-
- }
- 
-.contact-form  {
-
-  font-size: 1rem;
-  padding-left:10% ;
-  height: 100%;
-
- }
-
- .address {
-
-  padding-bottom:20%;
 
   }
 
-.contact-form h3 {
+  .contact-form h3 {
 
-  font-size:16px;
-
-  } 
-
-.contact-form input,
-.contact-form button {
-
-  margin-bottom: .2rem;
-  padding: 0.2rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+    font-size: 1.2rem;
 
   }
 
+  .contact-form input,
+  .contact-form button {
 
-        }
+    margin-bottom: .2rem;
+    padding: 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+  }
+
+  .address {
+
+    width: 100%;
+    padding: 1% 0 0 2%;
+
+  }
+
+  .address p {
+
+    font-size: .8rem;
+    padding-top: .45%;
+
+  }
+
+  .address h3 {
+
+    font-size: 1.2rem;
+    padding-bottom: 2%;
+
+  }
+}
+
+/* media queries for width up to (416px) */
+
+@media screen and (max-width: 416px) {
+
+  /* header section */
+
+  .nav a {
+
+    padding-left: 5px;
+    font-size: 13px;
+
+  }
+
+  .logo {
+    width: 120px;
+    height: 40px;
+
+  }
+
+  .content {
+
+    align-items: center;
+    justify-content: center;
+    padding: 20% 0% 0% 0%;
+    width: 95%;
+    height: 100%;
+  }
+
+
+  .content img {
+
+    width: 70%;
+    height: 70%;
+    margin-bottom: 35%;
+  }
+
+  /* contact section */
+
+  .contact-title {
+
+    font-size: .8em;
+
+  }
+
+  .contact-form {
+
+    font-size: 1rem;
+    padding-left: 10%;
+
+  }
+
+  .contact-form form {
+    width: 100%;
+
+  }
+
+  .address {
+
+    padding-bottom: 20%;
+
+  }
+
+  .contact-form h3 {
+
+    font-size: 16px;
+
+  }
+
+}

@@ -91,8 +91,7 @@ The footer section contains clickable links to the social media accounts faceboo
 
 ![404 page](/assets/img/404-pic.png)
 
--
-### Images
+-### Images
 
 - The company logo was used with kind permission of the Altrad Hofmaninger company and edited by myself.
 
@@ -121,7 +120,6 @@ The footer section contains clickable links to the social media accounts faceboo
 - Screenshots were taken with [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)
 - png image compress was done with [compresspng](https://compresspng.com/)
 - The error page image was created with [stable diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) and edited with [Adobe Photoshop](https://www.adobe.com/at/products/photoshop.html).
-
 
 ### Languages Used
 
@@ -196,4 +194,4 @@ Big Thanks to:
 
 - My facilitator [Kay Ci](https://code-institute-room.slack.com/team/U056NU8DZEW) did everything in her power to motivate and support me and provided me with detailed links to the information I needed.
 
-- Martin from CI tutoring
+- Special Thanks to Martin from CI tutoring
