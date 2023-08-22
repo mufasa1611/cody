@@ -302,6 +302,7 @@ h1 {
   min-height: 100vh;
   font-size: 1.5rem;
   padding-top: 80px;
+  margin-bottom: 80px;
 
 }
 
@@ -371,7 +372,7 @@ iframe {
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 20px;
-  z-index: 1;
+  
 
 }
 
