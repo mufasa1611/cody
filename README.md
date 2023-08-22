@@ -91,7 +91,7 @@ The footer section contains clickable links to the social media accounts faceboo
 
 ![404 page](/assets/img/404-pic.png)
 
--### Images
+### Images
 
 - The company logo was used with kind permission of the Altrad Hofmaninger company and edited by myself.
 
